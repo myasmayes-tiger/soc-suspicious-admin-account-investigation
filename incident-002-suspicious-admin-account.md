@@ -29,3 +29,19 @@ A new local account named TempAdmin was created and shortly afterward added to t
 In a real SOC environment, this sequence would warrant investigation because creation of a new account followed quickly by assignment of administrative privileges can indicate unauthorized account creation or privilege escalation.
 
 For this lab, the activity was intentionally generated for testing and was confirmed to be authorized.
+## Screenshots
+
+### Account Management Auditing Enabled
+![Account management auditing enabled](screenshots/01-soc-002-account-management-auditing.png)
+
+### TempAdmin Account Created
+![TempAdmin account created](screenshots/02-soc-002-tempadmin-created.png)
+
+### TempAdmin Added to Administrators
+![TempAdmin added to Administrators group](screenshots/03-soc-002-admin-group-membership.png)
+
+### Event ID 4720 — Account Created
+![Event 4720 showing TempAdmin account creation](screenshots/04-soc-002-event-4720-account-created.png)
+
+### Event ID 4732 — Administrator Group Membership
+![Event 4732 showing TempAdmin added to Administrators](screenshots/05-soc-002-event-4732-admin-added.png)

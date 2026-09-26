@@ -26,3 +26,7 @@ The investigation used Windows Security event logs to identify when a new accoun
 - Timeline analysis
 - Security group monitoring
 - SOC documentation
+
+## Investigation
+
+[View Incident #002 — Suspicious Local Administrator Account](incident-002-suspicious-admin-account.md)
